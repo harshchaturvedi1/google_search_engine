@@ -1,0 +1,80 @@
+.navbar {
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: 13% 50% 37%;
+  /* border: 1px solid blue; */
+}
+.titleBar {
+  display: flex;
+  font-size: 40px;
+  margin-top: -40px;
+  margin-bottom: -60px;
+}
+.searchBar {
+  display: grid;
+  grid-template-columns: 90% 4% 2%;
+  /* padding: 5px; */
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 30px;
+  height: 50px;
+}
+
+input {
+  width: 98%;
+  height: 150%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+.searchBar:hover {
+  border: none;
+  box-shadow: 1px 1px 5px grey;
+}
+.userDetails {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, 35px);
+  justify-content: right;
+  margin-right: 20px;
+}
+.hambberger {
+  display: flex;
+  font-size: 16px;
+  flex-direction: column;
+  justify-content: center;
+}
+.userImage img {
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgb(185, 181, 181);
+}
+
+.two {
+  margin-top: -10px;
+}
+
+.tagBar {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+}
+.tagBar p {
+  margin-left: 50px;
+}
+.tagBar p:nth-child(1) {
+  margin-left: 0%;
+}
+#resultFeed {
+  margin-left: 10%;
+  margin-right: 1%;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  grid-gap: 1%;
+  display: none;
+}
+#descr {
+  border: 1px solid grey;
+  height: 30%;
+}

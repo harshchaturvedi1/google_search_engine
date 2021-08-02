@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Google</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="navbar">
+        <!-- title -->
+        <div class="titleBar">
+            <p style="color: rgb(0, 102, 255);">G</p>
+            <p style="color: rgb(184, 23, 23)">o</p>
+            <p style="color: rgb(245, 181, 4);">o</p>
+            <p style="color: rgb(0, 81, 255);">g</p>
+            <p style="color: rgb(27, 156, 23);">l</p>
+            <p style="color: rgb(184, 23, 23);">e</p>
+        </div>
+
+        <!-- search bar -->
+        <div class="searchBar">
+            <div class="inputBox"><input type="text" id="query"></div>
+            <div class="searchicon" onclick="getData()"><i class="fa fa-search"
+                    style="font-size:17px; color: grey; cursor: pointer;"></i></div>
+            <div class="micIcon">
+                <i class="fa fa-microphone" style="cursor: pointer; font-size:20px; color: blue;"></i>
+            </div>
+        </div>
+
+
+        <!-- userpart -->
+        <div class="userDetails">
+            <div>
+                <p><i style="font-size:24px" class="fa">&#xf013;</i></p>
+            </div>
+            <div class="hambberger">
+                <i class="fa fa-ellipsis-h"></i>
+                <i class="fa fa-ellipsis-h two"></i>
+                <i class="fa fa-ellipsis-h two"></i>
+            </div>
+            <div class="userImage">
+                <img src="user.png" alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="tagBar">
+        <p>All</p>
+        <p>Images</p>
+        <p>Books</p>
+        <p>Maps</p>
+        <p>Videos</p>
+        <p>More:</p>
+    </div>
+
+    <hr>
+
+    <div id="resultFeed">
+
+        <div id="links"></div>
+        <div id="descr"></div>
+    </div>
+</body>
+
+</html>
+
+
+<script src="home.js"></script>
